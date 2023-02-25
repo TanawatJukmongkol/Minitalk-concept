@@ -6,7 +6,7 @@
 #    By: tjukmong <tjukmong@student.42bangkok.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 06:32:57 by tjukmong          #+#    #+#              #
-#    Updated: 2023/02/25 21:46:31 by tjukmong         ###   ########.fr        #
+#    Updated: 2023/02/26 00:58:55 by tjukmong         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ SRC1			= ${addprefix ${BUILD_DIR},${SRCS1}}
 OBJ1			= ${SRC1:.c=.o}
 
 SRC2			= ${addprefix ${BUILD_DIR},${SRCS2}}
-OBJ2			= ${SRC1:.c=.o}
+OBJ2			= ${SRC2:.c=.o}
 
 CC			= gcc
 CFLAG		= -g -Wall -Werror -Wextra -O3
